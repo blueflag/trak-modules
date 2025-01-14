@@ -7,7 +7,7 @@ module "cors" {
     "X-Amz-Date",
     "X-Amz-Security-Token",
     "X-Api-Key",
-    "x-blueflag-service-name"
+    "X-Blueflag-Service-Name"
   ]
   api_id          = var.api_id
   api_resource_id = var.api_resource_id
