@@ -27,7 +27,8 @@ variable "allow_headers" {
         "X-Amz-Date",
         "X-Amz-Security-Token",
         "X-Api-Key",
-        "X-Blueflag-Service-Name"
+        "X-Blueflag-Service-Name",
+        "x-blueflag-service-name"
     ]
 }
 
